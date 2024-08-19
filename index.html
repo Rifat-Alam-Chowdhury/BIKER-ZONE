@@ -38,11 +38,11 @@
 
 </head>
 
-<body class="poppins-thin">
+<body class="poppins-thin ">
 
     <head>
         <!-- navbar -->
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100  lg:container mx-auto">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -75,7 +75,7 @@
             </div>
         </div>
     </head>
-    <main>
+    <main class=" lg:container mx-auto">
 
         <!-- Carousel -->
         <div class="carousel w-full  lg:h-[550px] bg-bike mb-10">
@@ -383,13 +383,97 @@
 
         </section>
 
+        <!-- faq -->
+         <section>
+            <div class="text-center text-5xl my-8 p-10">
+                <h1>Frequently Asked <span class="text-red-600">Questions</span></h1>
+            </div>
 
+            <!-- faq main -->
+             <div>
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row ">
+                      <img 
+                        src="./images/others/faq.png"
+                        class="lg:max-w-sm rounded-lg hidden " />
+                        <img src="./images/others/android.png" alt="">
+                        <!-- faq -->
 
+                         <!-- 1 -->
+                        <div class="collapse collapse-arrow bg-base-200 border border-blue-500">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">What are the most important things I should
+                                know about riding a bike?
+                            </div>
+                            <div class="collapse-content">
+                              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                          </div>
+                          <!-- 1 -->
 
+                          <!-- 2 -->
+                          <div class="collapse collapse-arrow bg-base-200 border     border-blue-500">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                            <div class="collapse-content">
+                              <p>How can I tell if my helmet is old and I need a 
+                                new one?</p>
+                            </div>
+                          </div>
+                          <!-- 2 -->
 
+                          <!-- 3 -->
+                          <div class="collapse collapse-arrow bg-base-200 border     border-blue-500">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
+                            <div class="collapse-content">
+                              <p>How can I tell if my helmet is old and I need a 
+                                new one?</p>
+                            </div>
+                          </div>
+                          <!-- 3 -->
+                        <!-- faq -->
+                    </div>
+                  </div>
+             </div>
+            <!-- faq main -->
 
-
+         </section>
+        <!-- faq -->
     </main>
-    <footer></footer>
+
+
+    <footer class="footer bg-black text-neutral-content lg:p-14 p-10 ">
+       
+        <div class="container mx-auto flex flex-row justify-between text-center text-2xl">
+            <aside class=" flex flex-col gap-7">
+                <p>Download Now </p>
+                <p>License</p>
+                <p>About</p>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>Help</p>
+                <p>Careers</p>
+                <p>Privacy Policy</p>
+               </aside >
+
+               <nav class="items-center" >
+                 <h6>Get APP</h6>
+                 <div class="grid grid-cols-1 gap-4 w-2/3 mx-auto my-5">
+                   <a>
+                       <img src="./images/others/android.png" alt="">
+                   </a>
+                   <a>
+                       <img src="./images/others/ios.png" alt="">
+                   </a>
+                 </div>
+               </nav>
+
+        </div>
+
+        
+      </footer>
+
 
 </html>
